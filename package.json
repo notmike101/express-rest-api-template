@@ -1,0 +1,42 @@
+{
+  "name": "express-rest-api-template",
+  "version": "1.0.0",
+  "description": "Express REST API Template",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "mariadb": "^2.4.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5",
+    "serve-index": "^1.9.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui": "^3.32.5",
+    "swagger-ui-dist": "^3.32.5",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1"
+  },
+  "scripts": {
+    "start": "node bin/www",
+    "docker:start": "docker-compose up",
+    "docker:daemon:start": "docker-compose up -d",
+    "docker:daemon:stop": "docker-compose down",
+    "docker:stop": "docker-compose down"
+  },
+  "author": "Mike Orozco (notmike101) <https://github.com/notmike101>",
+  "license": "ISC",
+  "config": {
+    "server": {
+      "port": 5000
+    }
+  },
+  "main": "bin/www"
+}

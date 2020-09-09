@@ -1,0 +1,8 @@
+module.exports = [
+  {
+    source: 'sourceTable',
+    target: 'targetTable',
+    sourceKey: 'keyInSourceTable',
+    foreignKey: 'keyInTargetTable',
+  }
+]

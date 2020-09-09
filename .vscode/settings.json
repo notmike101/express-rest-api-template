@@ -1,0 +1,6 @@
+{
+  "eslint.enable": true,
+  "files.eol": "\n",
+  "editor.smoothScrolling": true,
+  "editor.wordWrapColumn": 120
+}
