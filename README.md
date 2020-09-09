@@ -105,4 +105,4 @@ This project is open to contributions from the public. All contributions must be
 2. Update README.md with any relevant changes
 3. Increase version number (If you want to) in `package.json`
 4. Submit pull requests to the `develop` branch **ONLY**. The `develop` branch is
-actively tested and merged into `main` when updates are applied.
+actively tested and merged into `master` when updates are applied.
