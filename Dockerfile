@@ -8,4 +8,4 @@ RUN npm install
 
 RUN npm install pm2 -g
 
-CMD [ "pm2-runtime", "/usr/src/app/bin/www" ]
+CMD [ "pm2-dev", "/usr/src/app/bin/www" ]

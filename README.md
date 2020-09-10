@@ -28,6 +28,23 @@ After starting, the API will be available on `http://localhost:5000`.
 
 ## Making It Your Own
 
+### Docker
+
+If you plan on using Docker in a production environment, change the following in `Dockerfile`:
+
+```diff
+diff --git a/Dockerfile b/Dockerfile
+index a69cd4c..21007e6 100644
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -8,4 +8,4 @@ RUN npm install
+ 
+ RUN npm install pm2 -g
+ 
+-CMD [ "pm2-dev", "/usr/src/app/bin/www" ]
++CMD [ "pm2-runtime", "/usr/src/app/bin/www" ]
+```
+
 ### Config
 
 Configuration is separated into modules for simplicity related to maintanance.
